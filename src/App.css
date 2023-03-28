@@ -1,0 +1,42 @@
+#root {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#major-explorer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 4rem 1fr;
+  gap: 6px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+#manage-majors-bar {
+  grid-column: span 6;
+  display: flex;
+}
+
+#major-graph {
+  grid-column: span 4;
+}
+
+#major-stats {
+  grid-column: span 2;
+}
+
+.tag {
+  background:rgb(246, 90, 90);
+  height: 2rem;
+  width: 5rem;
+  padding: .25rem;
+  border-radius: .5rem;
+  margin: 0 1rem;
+}
